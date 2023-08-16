@@ -2,13 +2,11 @@
 
 ![This is an image](https://ik.imagekit.io/m1ke1magek1t/Github_Readme_/Group%202_bfCKfxw3z.png?updatedAt=1692150533542)
 
-```
-✅ Fully Reactive
-✅ Reactive between cells
-✅ No Delegate
-✅ No Closure
-✅ Unidirectional data flow
-```
+- ✅ Fully Reactive
+- ✅ Reactive between cells
+- ✅ No Delegate
+- ✅ No Closure
+- ✅ Unidirectional data flow
 
 ### MVVM-FRP with TIO(Transform Input Output)
 ```
