@@ -29,15 +29,15 @@ internal final class StoreVM {
 ### VC
 ```
 private func bindViewModel() {
-		let input = StoreVM.Input(...)
-		let output = viewModel.transform(input, cancellables: &cancellables)
-
-		output.$...
-			.sink { [weak self] _ in
-        ....
-			}
-			.store(in: &cancellables)
-	}
+   let input = StoreVM.Input(...)
+   let output = viewModel.transform(input, cancellables: &cancellables)
+	
+   output.$...
+      .sink { [weak self] _ in
+      ....
+      }
+      .store(in: &cancellables)
+}
 ```
 
 
