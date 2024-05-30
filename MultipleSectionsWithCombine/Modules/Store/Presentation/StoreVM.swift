@@ -32,7 +32,6 @@ extension StoreVM {
 	}
 	
 	class Output {
-		@Published var dataSource: [DataSourceType] = []
 		@Published var snapshootItems: SectionedArrayOf<StoreVC.Section, DataSourceType> = .init()
 		var total: Int = 0
 	}
